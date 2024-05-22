@@ -3,7 +3,7 @@ app:
   profile:
   replicaCount: 1
   hostAliases: []
-  image: ${CONTAINER_REGISTRY_URI}/test-img:latest
+  image: tech-cs-337.kr-central-2.kcr.dev/cr-oliver-test/test-img:latest
   resources: {}
   service:
     type: LoadBalancer
